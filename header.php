@@ -12,7 +12,7 @@
 		<?php wp_head(); ?>
 	</head>	
 
-	<body >
+	<body <?php body_class(); ?>>
 		<header class="site-header">
 			<inner-column>
 				<h1 class="loud-voice">Header</h1>
