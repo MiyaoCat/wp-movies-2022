@@ -30,7 +30,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 body {
-	background: lightgreen;
+	background: var(--paper);
+	color: var(--ink);
 }
 
 .current_page_item a {
