@@ -1,0 +1,7 @@
+.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	opacity: 1;
+	background-color: var(--highlight);
+}

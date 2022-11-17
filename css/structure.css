@@ -1,0 +1,37 @@
+html {
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* be at least a full viewport height */
+} 
+
+main {
+	flex-grow: 1; /* fill up available space + push the footer down */
+}
+
+inner-column {
+	display: block;
+	width: var(--standard);
+	max-width: var(--wide); /* could be a variable in settings */
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 600px) {
+	inner-column {
+		width: var(--tight);
+	}
+	.heading inner-column {
+		width: var(--wide);
+		text-align: center;
+	}
+}
+
+inner-column.tight {
+	max-width: var(--tight);
+}

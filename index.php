@@ -3,7 +3,7 @@
 
 <?php 
 	if ( is_page("home") ) {
-		echo "<h1>Home</h1>";
+		include("templates/pages/home.php");
 	}
 
 	if ( is_page("movie-list") ) {
@@ -22,7 +22,7 @@
 
 	if ( is_singular("movie") ) {
 		echo "<h1>Movie Detail</h1>"; 
-		echo "<h1>" . the_field("movie_name") . "</h1>";
+		echo "<h1>" . the_field("movie") . "</h1>";
 	}
 ?>
 

@@ -17,6 +17,7 @@
 			<inner-column>
 				<h1 class="loud-voice">Header</h1>
 				
+				<?php include("templates/components/site-menu.php"); ?>
 			</inner-column>
 		</header>
 

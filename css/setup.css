@@ -1,0 +1,43 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} /* https://www.paulirish.com/2012/box-sizing-border-box-ftw */
+
+a {
+	display: block;
+	text-decoration: none;
+	color: var(--standout);;
+}
+
+p a {
+	display: inline;
+}
+
+picture {
+	display: block;
+	overflow: hidden;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}
+
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+b {
+	font-weight: 700;
+}
