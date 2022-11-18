@@ -24,3 +24,8 @@ movie-details {
 	display: flex;
 	flex-direction: column;
 }
+
+release-year {
+	display: flex;
+	align-items: center;
+}

@@ -16,13 +16,13 @@
 	   while ( $loop->have_posts() ) : $loop->the_post(); 
 	   	include("templates/components/movie-card.php");
 	   endwhile;
-
+	   
 	   wp_reset_postdata(); 
 	}
 
 	if ( is_singular("movie") ) {
 		echo "<h1>Movie Detail</h1>"; 
-		echo "<h1>" . the_field("movie") . "</h1>";
+		echo "<h1 class='loud-voice'>" . the_title() . "</h1>";
 	}
 ?>
 
