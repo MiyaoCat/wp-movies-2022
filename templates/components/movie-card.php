@@ -1,4 +1,4 @@
-<inner-column>
+
 	<movie-card>
 		<h2 class=" loud-voice name"><?php echo get_the_title(); ?></h2>
 	
@@ -65,4 +65,3 @@
 	
 		<a href="<?php the_permalink(); ?>">Learn More</a>
 	</movie-card>
-</inner-column>

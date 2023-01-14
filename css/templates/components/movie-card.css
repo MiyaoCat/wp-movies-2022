@@ -11,8 +11,8 @@ movie-card + movie-card {
 	margin-top: 20px;
 }
 
-movie-card img {
-	max-width: 200px;
+movie-card picture {
+	max-width: 30%;
 }
 
 movie-wrap {
