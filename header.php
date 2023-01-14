@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My Favorite Flix</title>
-		<meta property="og:image" content="https://peprojects.dev/alpha-4/john/"/>
+		<meta property="og:image" content=""/>
 
 		<title><?php echo wp_get_document_title(); ?></title>
 
