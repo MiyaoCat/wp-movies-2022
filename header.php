@@ -14,7 +14,7 @@
 		<header class="site-header">
 			<inner-column>
 				<h1 class="loud-voice">Header</h1>
-				
+				test
 				<?php include("templates/components/site-menu.php"); ?>
 			</inner-column>
 		</header>
