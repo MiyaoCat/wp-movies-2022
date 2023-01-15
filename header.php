@@ -7,7 +7,7 @@
 		<title>My Favorite Flix</title>
 		<meta property="og:image" content=""/>
 
-		<title><?php echo wp_get_document_title(); ?></title>
+		<title>test</title>
 
 		<?php wp_head(); ?>
 	</head>	
