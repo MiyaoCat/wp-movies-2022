@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>My Favorite Flix</title>
+		<title>test</title>
 		<meta property="og:image" content=""/>
 
 		<title>test</title>
