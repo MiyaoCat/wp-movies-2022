@@ -7,8 +7,6 @@
 		<title>test</title>
 		<meta property="og:image" content=""/>
 
-		<title>test</title>
-
 		<?php wp_head(); ?>
 	</head>	
 
